@@ -1,0 +1,41 @@
+<br>
+<h1 class="text-center">Orders</h1>
+<div class="container">
+    {{#each orders}}
+        <div class="col-md-12">
+            <div class="well">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>User ID</th>
+                        <th>Item</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th>Payment ID</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>{{this.user}}</td>
+                        <td>{{#each this.cart.items}}
+                            {{this.item.title}}<br>
+                        {{/each}}</td>
+                        <td>{{#each this.cart.items}}
+                            {{this.qty}}<br>
+                        {{/each}}</td>
+                        <td>{{#each this.cart.items}}
+                            {{this.price}} $<br>
+                        {{/each}}</td>
+                        <td>{{this.paymentId}}</td>
+                        <td>{{this.name}}</td>
+                        <td>{{this.address}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    {{/each}}
+</div>
+

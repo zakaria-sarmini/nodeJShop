@@ -1,0 +1,521 @@
+
+.login-card {
+    max-width: 350px;
+    padding: 40px 40px;
+    background-color: #F7F7F7;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-card .profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.login-card .profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.login-card .reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.login-card .form-signin input[type=email], .login-card .form-signin input[type=password], .login-card .form-signin input[type=text], .login-card .form-signin button {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.login-card label {
+    color: #000000;
+}
+
+.login-card .form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+}
+
+.login-card .btn.btn-signin {
+    font-weight: 700;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    background: rgb(104, 145, 162);
+    border-radius: 3px;
+    border: none;
+    transition: all 0.218s;
+    padding: 0;
+}
+
+.login-card .btn.btn-signin:hover, .login-card .btn.btn-signin:active, .login-card .btn.btn-signin:focus {
+    background: #ff3333;
+}
+
+.login-card .forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+.login-card .forgot-password:hover, .login-card .forgot-password:active, .login-card .forgot-password:focus {
+    color: rgb(12, 97, 33);
+}
+
+.product-item {
+    padding: 10px;
+}
+
+.product-item .product-container {
+    text-align: left;
+    font: normal 14px sans-serif;
+    background-color: #ffffff;
+    border: 1px solid #dbe3e7;
+    border-radius: 3px;
+    box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+}
+
+.product-item a.product-image {
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 20px 8px #f3f3f3 inset;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.product-item a.product-image img {
+    height: 130px;
+}
+
+.product-item h2 {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    font-weight: 800;
+}
+
+.product-item h2 a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.product-item a.small-text {
+    color: #808080;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: right;
+    font-size: 12px;
+}
+
+.product-item .product-rating {
+    color: #f09911;
+    font-size: 14px;
+}
+
+.product-item .product-rating a.small-text {
+    text-align: left;
+    margin: 0 0 0 10px;
+    display: inline-block;
+}
+
+.product-item p.product-description {
+    margin-top: 20px;
+    color: #5d5d5d;
+    line-height: 1.45;
+    white-space: normal;
+    margin-bottom: 20px;
+}
+
+.product-item button {
+    border-radius: 2px;
+    background: #87bae1;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    border: 0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 8px 20px;
+}
+
+.product-item button:active {
+    background: #87bae1;
+    color: #fff;
+    border: 0;
+}
+
+.product-item button:focus {
+    background: #87bae1;
+    outline: none;
+    color: #fff;
+}
+
+.product-item button:hover {
+    background: #66ABE0;
+    color: #fff;
+}
+
+.product-item button:focus:active {
+    background: #87bae1;
+    outline: none;
+    color: #fff;
+}
+
+.product-item .product-price {
+    color: #4e4e4e;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    text-align: right;
+}
+
+.register-form form.custom-form {
+    padding: 55px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    font: bold 14px sans-serif;
+    text-align: center;
+    margin: 50px;
+    color: #333;
+}
+
+@media (max-width: 400px) {
+    .register-form form.custom-form {
+        padding: 55px 10px;
+    }
+}
+
+.register-form .custom-form h1 {
+    display: inline-block;
+    color: #4c565e;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 10px 15px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid rgb(108, 174, 224);
+}
+
+.register-form .custom-form .form-group {
+    margin-bottom: 25px;
+}
+
+.register-form .custom-form .label-column {
+    text-align: right;
+    color: #5F5F5F;
+}
+
+@media (max-width: 768px) {
+    .register-form .custom-form .label-column {
+        text-align: left;
+    }
+}
+
+.register-form .custom-form .input-column {
+    color: #5f5f5f;
+    text-align: left;
+}
+
+.register-form .custom-form .input-column input {
+    color: #5f5f5f;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    height: 42px;
+}
+
+.register-form .custom-form .dropdown .dropdown-toggle {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    color: #333;
+    outline: none;
+}
+
+.register-form .custom-form .dropdown ul {
+    background: #fff;
+}
+
+.register-form .custom-form .dropdown ul li a {
+    background: #fff;
+    color: #333;
+    opacity: 0.8;
+}
+
+.register-form .custom-form .dropdown ul li a:hover {
+    opacity: 1;
+}
+
+.register-form .custom-form .submit-button {
+    border-radius: 2px;
+    background: #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin: 30px;
+    outline: none;
+}
+
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+#login-dp .help-block {
+    font-size: 12px
+}
+
+#login-dp .bottom {
+    background-color: rgba(255, 255, 255, .8);
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding: 14px;
+}
+
+#login-dp .social-buttons {
+    margin: 12px 0
+}
+
+#login-dp .social-buttons a {
+    width: 49%;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+.btn-fb {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+.btn-fb:hover {
+    color: #fff;
+    background-color: #496ebc
+}
+
+.btn-tw {
+    color: #fff;
+    background-color: #55acee;
+}
+
+.btn-tw:hover {
+    color: #fff;
+    background-color: #59b5fa;
+}
+
+@media (max-width: 768px) {
+    #login-dp {
+        background-color: inherit;
+        color: #fff;
+    }
+
+    #login-dp .bottom {
+        background-color: inherit;
+        border-top: 0 none;
+    }
+}
+
+.alert-message {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 3px solid #eee;
+}
+
+.alert-message h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.alert-message p:last-child {
+    margin-bottom: 0;
+}
+
+.alert-message code {
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.alert-message-success {
+    background-color: #F4FDF0;
+    border-color: #3C763D;
+}
+
+.alert-message-success h4 {
+    color: #3C763D;
+}
+
+.alert-message-danger {
+    background-color: #fdf7f7;
+    border-color: #d9534f;
+}
+
+.alert-message-danger h4 {
+    color: #d9534f;
+}
+
+.btn-product {
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar-brand .glyphicon {
+    margin-right: 6px;
+}
+
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+
+.fade-carousel .carousel-indicators > li.active {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.hero h1 {
+    font-size: 6em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
+}
+
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
+}
+
+.btn.btn-lg {
+    padding: 10px 40px;
+}
+
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fade-carousel .slides .slide-1 {
+    background-image: url(https://i.ytimg.com/vi/AmOQNLUB2Og/maxresdefault.jpg);
+}
+
+.fade-carousel .slides .slide-2 {
+    background-image: url(http://news.xbox.com/wp-content/uploads/Rise-of-the-Tomb-Raider-Co-Op-Endurance.jpg);
+}
+
+.fade-carousel .slides .slide-3 {
+    background-image: url(http://dice-wp-prd.s3.amazonaws.com/wp-content/uploads/2016/05/06204818/unnamed1.jpg);
+}
+
+@media screen and (min-width: 980px) {
+    .hero {
+        width: 980px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .hero h1 {
+        font-size: 4em;
+    }
+}
+

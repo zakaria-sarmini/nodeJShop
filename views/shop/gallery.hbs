@@ -1,0 +1,36 @@
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 col-md-4 col-md-offset-4 col-sm-offset-3">
+            <div class="alert alert-success {{#if noSuccess}}hidden{{/if}}">
+                {{success}}
+            </div>
+        </div>
+    </div>
+    {{# each products }}
+        <div class="row">
+            {{# each this}}
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img style="max-height: 180px" src={{this.imagePath}} alt="Game"/>
+                        <div class="caption">
+                            <div class="clearfix">
+                                <h3>{{this.title}}</h3>
+                                <p>{{this.description}}</p>
+                                <h4>$ {{this.price}}
+                                    <a href="/add-to-cart/{{this._id}}" class="btn btn-success pull-right"
+                                       role="button">Add
+                                        to shopping cart</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    {{/each}}
+</div>
+<br>
+
+
+
