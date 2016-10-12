@@ -11,7 +11,7 @@ A simple video game online shop with NodeJS, ExpressJS, and MongoDB
 -MongoDB database with mongoose<br>
 -Authentication and routes protection with passport<br>
 -Payments Handling with Stripe<br>
--Simple Admin "new Items" adding & "orders handling" panel<br>
+-Simple Admin "new Items" & "orders handling" panel<br>
 
 
 # install
