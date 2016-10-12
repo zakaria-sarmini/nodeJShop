@@ -3,27 +3,27 @@ A simple video game online shop with NodeJS, ExpressJS, and MongoDB
 
 # Features
 
--express
--handlebars
--passwords protection with bcrypt<br>
--failure and success messages with connect-flash<br>
--csrf protection with csurf<br>
--database with mongoose<br>
--authentication and routes protection with passport<br>
--handeling payments with stripe<br>
--simple admin orders handle<br>
+-ExpressJS<br>
+-Handlebars<br>
+-Passwords protection with bcrypt<br>
+-Failure and success messages with connect-flash<br>
+-Csrf protection with csurf<br>
+-MongoDB database with mongoose<br>
+-Authentication and routes protection with passport<br>
+-Payments Handling with Stripe<br>
+-Simple Admin "new Items" adding & "orders handling" panel<br>
 
 
 # install
-make sure you have NodeJs then run
+make sure you have NodeJs installed then cd to NodeJShop folder and run :
 ```bash
 npm install 
 ```
-to run the app 
+to run the app  :
 ```bash
 npm start 
 ```
-then navigate to localhost:3000 with your browser
+then with your browser, navigate to localhost:3000 
 
 # Live Demo
 
