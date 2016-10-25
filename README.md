@@ -17,7 +17,7 @@ A simple video game online shop with NodeJS, ExpressJS, and MongoDB
 # install
 make sure you have NodeJs installed then cd to NodeJShop folder and run :
 ```bash
-npm install 
+npm install --save
 ```
 to run the app  :
 ```bash
