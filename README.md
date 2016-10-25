@@ -27,6 +27,7 @@ then with your browser, navigate to localhost:3000
 
 # Live Demo
 
-http://world-of-games.herokuapp.com/
+http://world-of-games.herokuapp.com/<br><br>
+use admin@admin.com as username and "admin" as a password to login as admin and see orders saved into database with stripe payments ID.
 
 
